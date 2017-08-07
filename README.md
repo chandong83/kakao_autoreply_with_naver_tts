@@ -28,6 +28,8 @@ var client_secret = '당신의 네이버 API 암호키';
 
 필요한 패키지들은 다음과 같습니다.
 ~~~~
+//speaker 설치 필요
+$ sudo apt-get install libasound2-dev
 [적용 폴더]$ npm init -y
 [적용 폴더]$ npm install lame
 [적용 폴더]$ npm install speaker
