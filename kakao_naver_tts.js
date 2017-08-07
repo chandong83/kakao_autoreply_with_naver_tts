@@ -11,8 +11,14 @@ var express    = require('express');
 var app        = express();
 
 //네이버 KEY
-var client_id = '당신의 네이버 API ID';
-var client_secret = '당신의 네이버 API 암호키';
+/*
+터미널
+export PAPAGO_ID=asdfsadf
+export PAPAGO_SECRET=asdfsadf
+*/
+var client_id = process.env["NAVER_TTS_ID"];//'당신의 네이버 API ID';
+var client_secret = process.env["NAVER_TTS_SECRET"];//'당신의 네이버 API 암호키';
+
 //목소리 미진 음성
 var voiceModel = 'mijin';
 //목소리 속도 보통
