@@ -19,11 +19,15 @@
 
 </pre>
 
-~~~~~
-//네이버 KEY
-var client_id = '당신의 네이버 API ID';
-var client_secret = '당신의 네이버 API 암호키';
-~~~~~
+
+~~~~
+
+환경 변수에 네이버 KEY를 추가해주세요.
+터미널
+$ export NAVER_TTS_ID=asdfsadf
+$ export NAVER_TTS_SECRET=asdfsadf
+~~~~
+
 
 
 필요한 패키지들은 다음과 같습니다.
